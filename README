@@ -2,3 +2,5 @@ Tools for using latex in a container.
 
 I keep the image here: https://hub.docker.com/repository/docker/petersenna/fedora-texlive-scheme-full/general
 
+Use the Makefile as starting point for latex projects and add a symlink to docker/latex_container_helper.sh to your path.
+
