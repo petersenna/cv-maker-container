@@ -10,4 +10,4 @@ AB=$(realpath $(pwd))
 
 docker run --rm=true -i \
   -v ${AB}:${HOME}:Z \
-  -w ${HOME} -it  $IMAGENAME $@
+  -w ${HOME} $IMAGENAME $@
